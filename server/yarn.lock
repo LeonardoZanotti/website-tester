@@ -858,6 +858,13 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.7.tgz#36820945061326978c42a01e56b61cd223dfdc42"
   integrity sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==
 
+"@types/pa11y@^5.3.3":
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/@types/pa11y/-/pa11y-5.3.3.tgz#7eee3d29c5b897e26305e532b5e2755109bc82e2"
+  integrity sha512-yIMCBvNsSLgb7SxWStka4HJ1zETlCOqAbMSYwXyp4DFJ+hWfaDW/9nx5WHQtIUT8q4Ob1Bvg0cTORa9Rv1U6VA==
+  dependencies:
+    "@types/puppeteer" "^3"
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -867,6 +874,13 @@
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.4.2.tgz#4c62fae93eb479660c3bd93f9d24d561597a8281"
   integrity sha512-ekoj4qOQYp7CvjX8ZDBgN86w3MqQhLE1hczEJbEIjgFEumDy+na/4AJAbLXfgEWFNB2pKadM5rPFtuSGMWK7xA==
+
+"@types/puppeteer@^3":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-3.0.6.tgz#3939196de07ac0110335a14027f71fb714a10ece"
+  integrity sha512-RAKTyvL2MfxEUCTNVERoCypGWtxT8xX38iK2pCF2lQrlin9fHEfs3dkBsqt44xvtXP52WoRAo7uBzd6SNt9SSA==
+  dependencies:
+    "@types/node" "*"
 
 "@types/qs@*":
   version "6.9.7"
