@@ -1,2 +1,4 @@
-# website-tester
-Website accessibility tester with JavaScript
+# Website tester
+Website accessibility tester with NestJS
+
+## Leonardo Zanotti
