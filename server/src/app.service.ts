@@ -9,7 +9,7 @@ export class AppService {
   }
 
   async run(query: string, res: Response): Promise<Response> {
-    console.log('Query url: ', query);
+    console.log('Query url:', query);
     if (query) {
       try {
         const results = await pa11y(query);

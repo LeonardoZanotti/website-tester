@@ -6,7 +6,9 @@ $('document').ready(function () {
 
 // set loading spinner
 const setLoading = (isLoading = true) => {
-  isLoading ? $('.loader').css('display', 'block') : $('.loader').css('display', 'none');
+  isLoading
+    ? $('.loader').css('display', 'block')
+    : $('.loader').css('display', 'none');
 };
 
 // get information from backend api
