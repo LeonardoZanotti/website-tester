@@ -12,7 +12,7 @@ export class AppController {
     return this.appService.helloWorld();
   }
 
-  @Get('/api/test')
+  @Get('/test')
   run(@Query('url') url: string, @Res() response: Response): Promise<Response> {
     return this.appService.run(url, response);
   }
