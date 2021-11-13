@@ -11,6 +11,7 @@ export class AppService {
         const results = await pa11y(query);
         return res.json(results);
       } catch (err) {
+        console.log(err);
         return res.status(404).json({ error: 'Url not found!' });
       }
     }
