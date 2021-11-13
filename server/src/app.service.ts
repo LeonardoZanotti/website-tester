@@ -4,10 +4,6 @@ import * as pa11y from 'pa11y';
 
 @Injectable()
 export class AppService {
-  helloWorld(): string {
-    return 'Hello world!';
-  }
-
   async run(query: string, res: Response): Promise<Response> {
     console.log('Query url:', query);
     if (query) {
